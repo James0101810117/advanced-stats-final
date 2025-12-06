@@ -161,7 +161,7 @@ You can either:
 Clone with Git:
 
 bash
-複製程式碼
+Copy code
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 or
@@ -170,7 +170,7 @@ Download the ZIP from GitHub and extract it, then go into the project folder.
 
 3.2. Create and activate a virtual environment (recommended)
 bash
-複製程式碼
+Copy code
 python -m venv venv
 # Windows
 venv\Scripts\activate
@@ -180,7 +180,7 @@ source venv/bin/activate
 From the project root (where requirements.txt is located):
 
 bash
-複製程式碼
+Copy code
 pip install -r requirements.txt
 The main libraries used include:
 
@@ -200,7 +200,7 @@ xgboost (optional, for the XGBoost model)
 From the project root, run:
 
 bash
-複製程式碼
+Copy code
 streamlit run App/app.py
 This will open the app in your browser (or give you a local URL such as http://localhost:8501).
 
@@ -210,7 +210,7 @@ Download the DataCoSupplyChain dataset (or the sample file used in this project)
 Save it into the data/ folder, e.g.:
 
 text
-複製程式碼
+Copy code
 data/DataCoSupplyChainDataset_sample_20000.csv
 In the Streamlit app (left sidebar), there is a “CSV file path” input box.
 
@@ -219,14 +219,14 @@ You can either:
 Paste the full absolute path, e.g.:
 
 text
-複製程式碼
+Copy code
 C:\Users\james\...\data\DataCoSupplyChainDataset_sample_20000.csv
 or
 
 Use a relative path from the project root, e.g.:
 
 text
-複製程式碼
+Copy code
 data/DataCoSupplyChainDataset_sample_20000.csv
 If the file cannot be loaded, the app will show a clear error message.
 
